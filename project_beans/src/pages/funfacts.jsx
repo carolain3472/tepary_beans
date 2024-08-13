@@ -18,7 +18,7 @@ import {
   faDroplet,
   faPersonCane,
   faCircleExclamation,
-  
+  faListCheck,
 } from "@fortawesome/free-solid-svg-icons";
 
 export function FunFactsPage() {
@@ -28,18 +28,14 @@ export function FunFactsPage() {
       <Container
         fluid
         style={{
-          backgroundColor: "#ffff",
-          color: "#025201",
+          backgroundColor: "#678267",
+          color: "#fff",
         }}
       >
-        <Row
-          className="text-center"
-        >
-          <h2 style={{ marginTop: "20px", padding: "20px" }}>
-            Fun Facts About Tepary Beans
-          </h2>
+        <Row className="text-center">
+          <h2 style={{ marginTop: "15px" }}>Fun facts about Tepary Beans?</h2>
           <Col xs={12} md={10} lg={8} xl={6} xxl={4} className="col-init">
-            <Card className="card-init">
+            <Card className="card-init" style={{marginTop:"35px"}}>
               <Card.Body>
                 <FontAwesomeIcon
                   icon={faFaceLaughBeam}
@@ -56,7 +52,7 @@ export function FunFactsPage() {
             </Card>
           </Col>
           <Col xs={12} md={10} lg={8} xl={6} xxl={4} className="col-init">
-            <Card className="card-init">
+            <Card className="card-init" style={{marginTop:"35px"}}>
               <Card.Body>
                 <FontAwesomeIcon
                   icon={faBowlFood}
@@ -73,7 +69,7 @@ export function FunFactsPage() {
             </Card>
           </Col>
           <Col xs={12} md={10} lg={8} xl={6} xxl={4} className="col-init">
-            <Card className="card-init">
+            <Card className="card-init" style={{marginTop:"35px"}}>
               <Card.Body>
                 <FontAwesomeIcon
                   icon={faHeartPulse}
@@ -89,137 +85,118 @@ export function FunFactsPage() {
               </Card.Body>
             </Card>
           </Col>
+          <Col xs={12} md={10} lg={8} xl={6} xxl={4} className="col-init">
+            <Card className="card-init" style={{marginTop:"35px"}}>
+              <Card.Body>
+                <FontAwesomeIcon
+                  icon={faBacterium}
+                  size="2xl"
+                  style={{ color: "#025201" }}
+                />
+                <Card.Title> Beans Promote Gut Health </Card.Title>
+                <Card.Text style={{ textAlign: "justify" }}>
+                  The fiber and prebiotics in beans feed the beneficial bacteria
+                  in your gut, promoting a healthy microbiome. A healthy gut can
+                  improve digestion, boost immunity and even enhance mental
+                  well-being.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} md={10} lg={8} xl={6} xxl={4} className="col-init">
+            <Card className="card-init" style={{marginTop:"35px"}}>
+              <Card.Body>
+                <FontAwesomeIcon
+                  icon={faWeightHanging}
+                  size="2xl"
+                  style={{ color: "#025201" }}
+                />
+                <Card.Title> Beans Aid Wight Management </Card.Title>
+                <Card.Text style={{ textAlign: "justify" }}>
+                  The fiber and protein in beans help you feel full and
+                  satisfied, making them a great addiition to a weight-loss or
+                  weight-management diet. Incorporating beans can help you eat
+                  less and maintain a healthy weight.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} md={10} lg={8} xl={6} xxl={4} className="col-init">
+            <Card className="card-init" style={{marginTop:"35px"}}>
+              <Card.Body>
+                <FontAwesomeIcon
+                  icon={faDroplet}
+                  size="2xl"
+                  style={{ color: "#025201" }}
+                />
+                <Card.Title> Beans Regulate Blood sugar </Card.Title>
+                <Card.Text style={{ textAlign: "justify" }}>
+                  The complex carbohydrates and fiber in beans help slow the
+                  absortion of glucose, making them a great choice for people
+                  with diabetes or those looking to maintain healthy blood sugar
+                  levels.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} md={10} lg={8} xl={6} xxl={4} className="col-init">
+            <Card className="card-init" style={{marginTop:"35px"}}>
+              <Card.Body>
+                <FontAwesomeIcon
+                  icon={faPersonCane}
+                  size="2xl"
+                  style={{ color: "#025201" }}
+                />
+                <Card.Title> Ancient Origins </Card.Title>
+                <Card.Text style={{ textAlign: "justify" }}>
+                  Tepary beans are one of the oldest cultivated crops in North
+                  America, dating back over 4,000 years. They were a staple food
+                  for Indigenous peoples in the arid regions of the southwestern
+                  United States and northern Mexico, prized for their ability to
+                  thrive in harsh, dry climates.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} md={10} lg={8} xl={6} xxl={4} className="col-init">
+            <Card className="card-init" style={{marginTop:"35px"}}>
+              <Card.Body>
+                <FontAwesomeIcon
+                  icon={faCircleExclamation}
+                  size="2xl"
+                  style={{ color: "#025201" }}
+                />
+                <Card.Title> Survival Mode </Card.Title>
+                <Card.Text style={{ textAlign: "justify" }}>
+                  Tepary beans are known for their unique ability to enter a
+                  "survival mode" during extreme drought. When water is scarce,
+                  they can pause their growth and wait for better conditions,
+                  resuming once they receive enough moisture. This makes them
+                  one of the most drought-tolerant legumes.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} md={10} lg={8} xl={6} xxl={4} className="col-init">
+            <Card className="card-init" style={{marginTop:"35px"}}>
+              <Card.Body>
+                <FontAwesomeIcon
+                  icon={faListCheck}
+                  size="2xl"
+                  style={{ color: "#025201" }}
+                />
+                <Card.Title> Deliciously Diverse </Card.Title>
+                <Card.Text style={{ textAlign: "justify" }}>
+                  Tepary beans come in a variety of colors, including white,
+                  brown, tan, and even speckled. Each color has its own distinct
+                  flavor, ranging from mildly sweet to slightly nutty, making
+                  them versatile for different dishes, from soups and stews to
+                  salads and dips.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
         </Row>
-        <Container
-          fluid
-          style={{
-            backgroundColor: "#678267",
-            color: "#fff",
-          }}
-        >
-          <Row className="text-center">
-            <Col xs={12} md={10} lg={8} xl={6} xxl={4} className="col-init">
-              <Card className="card-init">
-                <Card.Body>
-                  <FontAwesomeIcon
-                    icon={faBacterium}
-                    size="2xl"
-                    style={{ color: "#025201" }}
-                  />
-                  <Card.Title> Beans Promote Gut Health </Card.Title>
-                  <Card.Text style={{ textAlign: "justify" }}>
-                    The fiber and prebiotics in beans feed the beneficial
-                    bacteria in your gut, promoting a healthy microbiome. A
-                    healthy gut can improve digestion, boost immunity and even
-                    enhance mental well-being.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={12} md={10} lg={8} xl={6} xxl={4} className="col-init">
-              <Card className="card-init">
-                <Card.Body>
-                  <FontAwesomeIcon
-                    icon={faWeightHanging}
-                    size="2xl"
-                    style={{ color: "#025201" }}
-                  />
-                  <Card.Title> Beans Aid Wight Management </Card.Title>
-                  <Card.Text style={{ textAlign: "justify" }}>
-                    The fiber and protein in beans help you feel full and
-                    satisfied, making them a great addiition to a weight-loss or
-                    weight-management diet. Incorporating beans can help you eat
-                    less and maintain a healthy weight.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={12} md={10} lg={8} xl={6} xxl={4} className="col-init">
-              <Card className="card-init">
-                <Card.Body>
-                  <FontAwesomeIcon
-                    icon={faDroplet}
-                    size="2xl"
-                    style={{ color: "#025201" }}
-                  />
-                  <Card.Title> Beans Regulate Blood sugar </Card.Title>
-                  <Card.Text style={{ textAlign: "justify" }}>
-                    The complex carbohydrates and fiber in beans help slow the
-                    absortion of glucose, making them a great choice for people
-                    with diabetes or those looking to maintain healthy blood
-                    sugar levels.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-        </Container>
-        <Container
-          fluid
-          style={{
-            backgroundColor: "#ffff",
-          }}
-        >
-          <Row className="text-center">
-            <Col xs={12} md={10} lg={8} xl={6} xxl={4} className="col-init">
-              <Card className="card-init">
-                <Card.Body>
-                  <FontAwesomeIcon
-                    icon={faPersonCane}
-                    size="2xl"
-                    style={{ color: "#025201" }}
-                  />
-                  <Card.Title> Ancient Origins </Card.Title>
-                  <Card.Text style={{ textAlign: "justify" }}>
-                    Tepary beans are one of the oldest cultivated crops in North
-                    America, dating back over 4,000 years. They were a staple
-                    food for Indigenous peoples in the arid regions of the
-                    southwestern United States and northern Mexico, prized for
-                    their ability to thrive in harsh, dry climates.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={12} md={10} lg={8} xl={6} xxl={4} className="col-init">
-              <Card className="card-init">
-                <Card.Body>
-                  <FontAwesomeIcon
-                    icon={faCircleExclamation}
-                    size="2xl"
-                    style={{ color: "#025201" }}
-                  />
-                  <Card.Title> Survival Mode </Card.Title>
-                  <Card.Text style={{ textAlign: "justify" }}>
-                    Tepary beans are known for their unique ability to enter a
-                    "survival mode" during extreme drought. When water is
-                    scarce, they can pause their growth and wait for better
-                    conditions, resuming once they receive enough moisture. This
-                    makes them one of the most drought-tolerant legumes.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={12} md={10} lg={8} xl={6} xxl={4} className="col-init">
-              <Card className="card-init">
-                <Card.Body>
-                  <FontAwesomeIcon
-                    icon={faDroplet}
-                    size="2xl"
-                    style={{ color: "#025201" }}
-                  />
-                  <Card.Title> Deliciously Diverse </Card.Title>
-                  <Card.Text style={{ textAlign: "justify" }}>
-                    Tepary beans come in a variety of colors, including white,
-                    brown, tan, and even speckled. Each color has its own
-                    distinct flavor, ranging from mildly sweet to slightly
-                    nutty, making them versatile for different dishes, from
-                    soups and stews to salads and dips.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-        </Container>
       </Container>
     </>
   );
