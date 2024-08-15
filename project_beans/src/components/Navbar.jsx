@@ -3,7 +3,7 @@ import "../css/navbar_style.css";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Container, Navbar, Nav } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+
 
 export function NavbarComponent() {
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ export function NavbarComponent() {
             onClick={() => handleLinkClick("/")}
             style={{ cursor: "pointer" }}
           >
-            AppName
+            Tepary Beans
           </Navbar.Brand>
           <Navbar.Toggle
             className="bg-body-tertiary"
@@ -44,7 +44,7 @@ export function NavbarComponent() {
                 className="text-navbar"
                 onClick={() => handleLinkClick("/about")}
               >
-                About us
+                About our project
               </Nav.Link>
               <Nav.Link
                 className="text-navbar"

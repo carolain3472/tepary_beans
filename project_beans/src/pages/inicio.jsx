@@ -9,7 +9,6 @@ import {
   Image,
   Card,
 } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useNavigate } from "react-router-dom";
 import {} from "@fortawesome/free-solid-svg-icons";
 import "../css/initial_style.css";
@@ -22,7 +21,7 @@ export function InicioPage() {
   };
 
   const handleEventClickInvolved = () => {
-    navigate("/info");
+    navigate("/about");
   };
 
   return (
